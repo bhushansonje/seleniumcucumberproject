@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="47" started-at="2020-02-01T11:02:22Z" finished-at="2020-02-01T11:02:22Z">
+    <groups>
+    </groups>
+    <test name="firefoxbrowser" duration-ms="47" started-at="2020-02-01T11:02:22Z" finished-at="2020-02-01T11:02:22Z">
+      <class name="testRunners.SampleDemo">
+        <test-method status="PASS" signature="sampleMethod()[pri:0, instance:testRunners.SampleDemo@204f30ec]" name="sampleMethod" duration-ms="31" started-at="2020-02-01T16:32:22Z" finished-at="2020-02-01T16:32:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleMethod -->
+      </class> <!-- testRunners.SampleDemo -->
+    </test> <!-- firefoxbrowser -->
+  </suite> <!-- Suite -->
+</testng-results>

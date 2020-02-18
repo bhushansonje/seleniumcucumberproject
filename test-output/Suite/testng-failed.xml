@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests" allow-return-values="true">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="appURL" value="http://www.google.com"/>
+  <test name="firefoxbrowser(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testRunners.SampleDemo">
+        <methods>
+          <include name="main"/>
+        </methods>
+      </class> <!-- testRunners.SampleDemo -->
+    </classes>
+  </test> <!-- firefoxbrowser(failed) -->
+</suite> <!-- Failed suite [Suite] -->
